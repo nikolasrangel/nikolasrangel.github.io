@@ -3,7 +3,7 @@ title:       nome
 email:       nikolas.rangel@gmail.com
 author:      Nikolas Rangel
 description: "lorem ipsum"
-baseurl:     ""
+baseurl:
 url:         "http://nikolasrangel.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
