@@ -3,24 +3,23 @@ title:       nome
 email:       nikolas.rangel@gmail.com
 author:      Nikolas Rangel
 description: "lorem ipsum"
-baseurl:
+baseurl:     ""
 url:         "http://nikolasrangel.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
- - contact.html
 
 # Google services
 google_verification:
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
-google_analytics:
+google_analytics: UA-131575177-1
 google_tag_manager:
 # Bing services
 bing_verification:
 
 # Optional features
-animated:             false
+animated:             true
 show_related_posts:   false
 show_post_footers:    false
 show_social_icons:    false
@@ -83,8 +82,8 @@ share_hackernews: false
 
 text:
   pagination:
-    newer: 'Newer'
-    older: 'Older'
+    newer: 'newer'
+    older: 'older'
   share_buttons:
     text:         'Share this post!'
     facebook:     'Share on Facebook'
@@ -97,7 +96,7 @@ text:
     stumbleupon:  'Share on StumbleUpon'
     hackernews:   'Share on Hacker News'
   post:
-    updated:        'Updated'
+    updated:        'updated'
     minute_read:    'minute read'
     related_posts:  'Related Posts'
   index:
@@ -125,6 +124,7 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jemoji
 # https://github.com/jekyll/jekyll/issues/2938
 exclude:
   - Gemfile
