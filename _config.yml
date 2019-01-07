@@ -1,10 +1,10 @@
 # Site settings
-title:       nome
+title:       nikolasrangel
 email:       nikolas.rangel@gmail.com
 author:      Nikolas Rangel
-description: "lorem ipsum"
+description: "JavaScript and others cool stuff"
 baseurl:     ""
-url:         "http://nikolasrangel.github.io"
+url:         "nikolasrangel.com"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
