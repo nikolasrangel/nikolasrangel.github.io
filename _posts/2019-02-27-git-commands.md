@@ -10,69 +10,69 @@ categories: git
 
 ## stash
 
-#### coloca na pilha:
+#### stash the changes:
 
 <code>git stash</code>
 
-#### lista os stashes da pilha:
+#### lists stashs:
 
 <code>git stash list</code>
 
-#### aplica o stash mais recente da pilha:
+#### apply the latest stash:
 
 <code>git stash apply</code>
 
-#### aplica o stash especificado:
+#### apply a specific stash:
 
 <code>git stash apply stash@{number}</code>
 
-#### remove da pilha o stash:
+#### remove a specific stash from the stash list:
 
 <code>git stash drop stash@{number}</code>
 
-#### aplica e remove da pilha o stash:
+#### apply and remove from the stash list:
 
 <code>git stash pop stash@{number}</code>
 
 ## remote
 
-#### adiciona remote:
+#### add a remote:
 
 <code>git remote add remote-name remote-url</code>
 
-#### lista remotes:
+#### lists remotes:
 
 <code>git remote -v</code>
 
-#### renomeia remote:
+#### rename a remote:
 
-<code>git remote rename old name</code>
+<code>git remote rename old-name new-name</code>
 
-#### remove remote:
+#### remove a remote:
 
 <code>git remote remove remote-name</code>
 
 ## push
 
-#### push para remote:
+#### push into remote:
 
 <code>git push remote-name branch-name</code>
 
-#### heroku: push de branch para a master:
+#### heroku: push any branch into master and start a new deploy:
 
 <code>git push heroku-remote-name branch-name:master</code>
 
 ## branch
 
-#### lista branches:
+#### lists branches:
 
 <code>git branch</code>
 
-#### cria branch e muda para ela:
+#### checkout and create a new branch from the working directory:
 
 <code>git checkout -b branch-name</code>
 
-#### apenas cria uma branch:
+#### create a new branch:
 
 <code>git branch branch-name</code>
 
@@ -80,7 +80,7 @@ categories: git
 
 <code>git branch -d branch-name</code>
 
-#### deleta branch forçando:
+#### deletes a branch in force mode:
 
 <code>git branch -D branch-name</code>
 
