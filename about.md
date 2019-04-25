@@ -7,9 +7,9 @@ tags: about
 
 hi, I'm Nikolas, a dev from Brazil who loves cats and to learn about web development technologies.
 
-I work at Embraer as a full-stack, working mainly with JavaScript ecosystem, Heroku and machine learning with Python.
+I work at Embraer as a full-stack developer, working mainly with JavaScript ecosystem, Heroku and machine learning with Python.
 
-some of my interests are: JavaScript (:wink:), Node.js, React, microservices and web performance.
+some of my interests are: JavaScript (:wink:), Node.js, front-end frameworks (Angular and React), microservices and web performance.
 
 feel free to contact me:
 
